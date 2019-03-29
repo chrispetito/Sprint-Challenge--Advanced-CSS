@@ -188,20 +188,27 @@ p {
   color: #5E6164;
   padding-top: 1.3rem;
 }
-.navigation .nav-options {
+.nav-options {
   font-size: 1.6rem;
   margin-bottom: 2rem;
 }
-.navigation .nav-options a {
+.nav-options a {
   text-decoration: none;
   padding: 1rem 1.3rem;
   color: #5E6164;
   border-radius: 5px;
 }
-.navigation .nav-options a:hover {
+.nav-options a:hover {
   color: white;
   background: #c4c4c4;
   box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+@media (max-width: 500px) {
+  .nav-options a:hover {
+    box-shadow: none;
+    color: #5E6164;
+    background: none;
+  }
 }
 footer {
   color: #22283B;

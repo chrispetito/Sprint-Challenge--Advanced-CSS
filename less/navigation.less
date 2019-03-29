@@ -26,21 +26,27 @@
         color: @main-font-color;
         padding-top: 1.3rem;
     }
-    .nav-options {
-        font-size: 1.6rem;
-        margin-bottom: 2rem;
+}
+.nav-options {
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
 
-        a {
-            text-decoration: none;
-            padding: 1rem 1.3rem;
+    a {
+        text-decoration: none;
+        padding: 1rem 1.3rem;
+        color: @main-font-color;
+        border-radius: 5px;
+
+        &:hover {
+            color: white;
+            background: #c4c4c4;
+            box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.25);
+
+        @media @phone {
+            box-shadow: none;
             color: @main-font-color;
-            border-radius: 5px;
-
-            &:hover {
-                color: white;
-                background: #c4c4c4;
-                box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.25);
-            }
+            background: none;
+        }
         }
     }
 }
