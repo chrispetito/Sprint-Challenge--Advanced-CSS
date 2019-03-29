@@ -169,6 +169,8 @@ p {
   height: 10rem;
   padding-top: 1.2rem;
   background: #F6F6F6;
+  position: fixed;
+  opacity: 0.88;
 }
 @media (max-width: 500px) {
   .navigation {
@@ -200,6 +202,9 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.home .intro img {
+  margin-top: 10rem;
 }
 @media (max-width: 500px) {
   .home .intro img {
