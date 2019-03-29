@@ -194,11 +194,14 @@ p {
 }
 .navigation .nav-options a {
   text-decoration: none;
-  margin: 0 1.4rem;
+  padding: 1rem 1.3rem;
   color: #5E6164;
+  border-radius: 5px;
 }
 .navigation .nav-options a:hover {
-  color: #c4c4c4;
+  color: white;
+  background: #c4c4c4;
+  box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.25);
 }
 footer {
   color: #22283B;
@@ -314,10 +317,13 @@ footer {
   border-color: #22283A;
   color: #22283A;
   background: white;
+  cursor: pointer;
 }
 .home .walk .walk-img {
   width: 46%;
   margin-left: 4%;
+  animation-name: fade-in;
+  animation-duration: 3s;
 }
 @media (max-width: 500px) {
   .home .walk .walk-img {

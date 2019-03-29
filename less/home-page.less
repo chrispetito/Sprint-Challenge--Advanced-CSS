@@ -112,7 +112,7 @@
 
         &:hover {
           .button-hover-border(1px, solid, @btn-bg-color);
-          .button-hover-style(@btn-bg-color, white);
+          .button-hover-style(@btn-bg-color, white, pointer);
         }
       }
     }
@@ -120,6 +120,8 @@
     .walk-img {
       width: 46%;
       margin-left: 4%;
+      animation-name: fade-in;
+      animation-duration: 3s;
 
       @media @phone {
         width: 100%;
