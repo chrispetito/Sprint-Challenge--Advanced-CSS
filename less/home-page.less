@@ -110,9 +110,8 @@
         }
 
         &:hover {
-          color: @btn-bg-color;
-          background: white;
-          border: 1px solid @btn-bg-color;
+          .button-hover-border(1px, solid, @btn-bg-color);
+          .button-hover-style(@btn-bg-color, white);
         }
       }
     }
