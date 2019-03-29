@@ -161,16 +161,20 @@ p {
   margin: 0 auto;
 }
 .navigation {
-  display: flex;
-  flex-direction: column;
-  margin-left: 46rem;
-  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  background: #F6F6F6;
+  opacity: 0.88;
   width: 1000px;
   height: 10rem;
-  padding-top: 1.2rem;
-  background: #F6F6F6;
   position: fixed;
-  opacity: 0.88;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.navigation:hover {
+  opacity: 1;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
 }
 @media (max-width: 500px) {
   .navigation {
@@ -182,16 +186,19 @@ p {
   font-size: 4rem;
   margin-bottom: 1.8rem;
   color: #5E6164;
+  padding-top: 1.3rem;
 }
 .navigation .nav-options {
   font-size: 1.6rem;
-  padding-bottom: 0.4rem;
   margin-bottom: 2rem;
 }
 .navigation .nav-options a {
   text-decoration: none;
   margin: 0 1.4rem;
   color: #5E6164;
+}
+.navigation .nav-options a:hover {
+  color: #c4c4c4;
 }
 footer {
   color: #22283B;
